@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 85px;
+    width: 90%;
+    border: 2px solid black;
+    border-bottom-left-radius: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameofheader {
+    display: inline-block;
+    margin: 30px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: white;
+    margin: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.picture {
+    width: 85%;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    color: black;
+    text-align: center;
+}
+
+.text2 {
+    color: red;
+    text-align: center;
+    margin-left: 10px;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+
+.box1 {
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #EBECF0;
+    height: 100px;
+    border: #EBECF0;
+    border-radius: 1rem;
+    font-size: large;
+    padding: 2rem;
+    font-size: x-large;
+}
+
+.box2 {
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 150px;
+    border: #EBECF0;
+    border-radius: 1rem;
+    font-size: large;
+    padding: 2rem;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+ol li {
+    display: flex;
+    justify-content: center;
+}
+
+.box3 {
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #EBECF0;
+    height: 100px;
+    border: #EBECF0;
+    border-radius: 1rem;
+    font-size: large;
+    padding: 2rem;
+    font-size: x-large;
+}
+
+.box2 ol li a {
+    text-decoration: none;
+    color: black;
+}
+.social1{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 125px;
+    border: 2px solifd black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 25px;
+}
+.socialstatement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: x-large;
+}
+.sociallinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.sociallinks a{
+    text-decoration: none;
+    color: white;
+}
+.github{
+    margin-right: 15px;
+}
+.instagram{
+    margin-right: 15px;
+}
